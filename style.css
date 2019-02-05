@@ -4,10 +4,37 @@
  Description:  Child theme of 
  Author:       Will Skora
  Author URI:   http://example.com
- Template:     twentynineteen
+ Template:     quark
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  roland
 */
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables*/
+
+:root {
+  --main-bg-color: #003ECB;
+  --main-bg-light-opacity: ;
+  --a-visited: #FF0600;
+  --a-hover: ;
+}
+
+h3 {
+
+color: black;
+
+}
+
+.main-navigation a {
+	color: var(--main-bg-color);
+}
+
+a.btn {
+ color: blue;
+ /* background-color: var(--main-bg-color); */
+ background-color-opacity: 0.04;
+ border-radius: 4px;
+ border-color: darken(blue); 
+}
