@@ -1,7 +1,7 @@
 /*
  Theme Name:   Roland - JHFF theme example 1 
  Theme URI:    http://example.com
- Description:  Child theme of 
+ Description:  Child theme of Quark
  Author:       Will Skora
  Author URI:   http://example.com
  Template:     quark
@@ -12,8 +12,8 @@
  Text Domain:  roland
 */
 
+/*Variables */
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables*/
-
 :root {
   --main-bg-color: #003ECB;
   --main-bg-light-opacity: ;
@@ -21,20 +21,27 @@
   --a-hover: ;
 }
 
-h3 {
 
+/* layout */
+.banner .row {
+	display: none;
+}
+
+/* base styling */ 
+.entry-content h3 {
+line-height: inherit;
 color: black;
 
+/* components */
+a.btn {
+ color: var(--main-bg-color);
+ /* background-color: var(--main-bg-color); */
+ background-color-opacity: 0.04;
+ border-radius: 4px;
+ border-color: darken(blue); 
 }
 
 .main-navigation a {
 	color: var(--main-bg-color);
 }
 
-a.btn {
- color: blue;
- /* background-color: var(--main-bg-color); */
- background-color-opacity: 0.04;
- border-radius: 4px;
- border-color: darken(blue); 
-}
