@@ -4,7 +4,7 @@
  Description:  Child theme of Quark
  Author:       Will Skora
  Author URI:   http://example.com
- Template:     quark
+ Template:     Quark
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
@@ -21,10 +21,18 @@
   --a-hover: ;
 }
 
+.header--div--fund {
+	display: block;
+	text-align: center;
+	font-size: 30px;
+
+}
 
 /* layout */
 .banner .row {
-	display: none;
+	/*display: none;*/
+	font-size: 2em;
+	justify-content: center;
 }
 
 /* base styling */ 
