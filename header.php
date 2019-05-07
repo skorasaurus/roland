@@ -71,7 +71,7 @@
 			<div class="header--div--fund--parent">
 		 	<div class="col grid_7_of_12 header--div--fund"> 
 
-		 	The Jacob Harasyn Feichtner Fund
+		 	
 		 	</div> <!--  -->
 		 	</div>
 		</header> <!-- /#masthead.site-header.row -->
@@ -79,7 +79,7 @@
 	</div> <!-- /#headercontainer -->
 	<div id="bannercontainer">
 		<div class="banner row">
-		Funding Children's Futures!
+		The Jacob Harasyn Feichtner Fund: Funding Children's Futures!
 			<?php	do_action( 'quark_above_banner' ); ?>
 			<?php if ( is_front_page() ) {
 				// Count how many banner sidebars are active so we can work out how many containers we need
