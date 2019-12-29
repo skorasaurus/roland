@@ -45,12 +45,13 @@ line-height: inherit;
 color: black;
 }*/
 /* components */
-/*btn {
- color: var(--main-bg-color);
+.btn {
+ background-color: var(--main-bg-color);
+ color: #FFFFFF;
  background-color-opacity: 0.04;
  border-radius: 4px;
  border-color: darken(blue); 
-}*/
+}
 
 
 .main-navigation a {
@@ -61,4 +62,12 @@ color: black;
 .feature-time-date-block {
 font-size: 1.75rem; 
 margin-bottom: 0.375rem;
+}
+
+#mc-embedded-subscribe {
+ background-color: var(--main-bg-color); !important
+ color: #FFFFFF;
+ background-color-opacity: 0.04;
+ border-radius: 4px;
+ border-color: darken(blue); 
 }
