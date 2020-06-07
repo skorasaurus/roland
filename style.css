@@ -64,6 +64,14 @@ font-size: 1.75rem;
 margin-bottom: 0.375rem;
 }
 
+
+.call-out__ {
+	border-color: black;
+	border-style: solid;
+	border-width: 1em;
+	padding: 2em;
+}
+
 #mc-embedded-subscribe {
  background-color: var(--main-bg-color); !important
  color: #FFFFFF;
@@ -71,3 +79,4 @@ margin-bottom: 0.375rem;
  border-radius: 4px;
  border-color: darken(blue); 
 }
+
