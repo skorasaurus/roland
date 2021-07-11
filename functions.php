@@ -19,6 +19,22 @@ add_action( 'after_setup_theme', 'my_theme_setup' );
 
 // add_theme_support( 'editor-styles' );
 
+// register patterns
 
+register_block_pattern(
+    'Default JHFF Button',
+    array(
+        'title'   => __( 'Default button', 'my-plugin' ),
+        'content' => "<!-- wp:buttons -->
+<div class=\"wp-block-buttons\"><!-- wp:button {\"style\":{\"color\":{\"background\":\"#1634d2\"}},\"textColor\":\"white\"} -->
+<div class=\"wp-block-button\"><a class=\"wp-block-button__link has-white-color has-text-color has-background\" style=\"background-color:#1634d2\">Placeholder Text</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->",
+    )
+);
 
 ?>
