@@ -11,6 +11,7 @@ function my_theme_setup() {
 
     // Enqueue editor styles.
     add_editor_style( 'style-editor.css' );
+    add_filter( 'use_widgets_block_editor', '__return_false' );
 }
 add_action( 'after_setup_theme', 'my_theme_setup' );
 
