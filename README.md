@@ -1,2 +1,2 @@
 # roland
-WordPress child theme of Twentynineteen. 
+WordPress child theme of Quark https://wordpress.org/themes/quark/

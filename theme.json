@@ -1,0 +1,20 @@
+{
+	"version": 2,
+    "settings": {
+		"color": {
+			"custom": true,
+			"customDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"gradients": [
+			],
+			"palette": [
+				{
+					"name": "blue",
+					"slug": "blue",
+					"color": "#1634d2"
+				}
+			]
+		}
+    }
+}         230, 81, 45

@@ -6,12 +6,18 @@ function my_theme_enqueue_styles() {
     wp_enqueue_style( 'roland', get_template_directory_uri() . '/style.css' );
 }
 
+// disable emojis, remove comments
+// UGH, annoying wordpress child error
+require get_stylesheet_directory() . '/inc/remove-comments.php';
+require get_stylesheet_directory() . '/inc/disable-emoji.php';
+
 function my_theme_setup() {
     // Lots of other code …
 
     // Enqueue editor styles.
     add_editor_style( 'style-editor.css' );
-    add_filter( 'use_widgets_block_editor', '__return_false' );
+
+    add_theme_support( 'wp-block-styles' );
 }
 add_action( 'after_setup_theme', 'my_theme_setup' );
 
