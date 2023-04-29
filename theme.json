@@ -2,17 +2,26 @@
 	"schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
 	"settings": {
+		"appearanceTools": true,
 		"color": {
 			"custom": true,
 			"customDuotone": false,
 			"defaultGradients": false,
-			"defaultPalette": false,
+			"defaultPalette": true,
 			"gradients": [],
 			"palette": [{
-				"name": "blue",
-				"slug": "blue",
+				"name": "primary-blue",
+				"slug": "primary-blue",
 				"color": "#1634d2"
-			}]
+			}, 
+			{
+				"name": "secondary-white",
+				"slug": "secondary-white",
+				"color": "#fcfcfc"
+			}
+
+		]
 		}
-	}
 }
+}
+
